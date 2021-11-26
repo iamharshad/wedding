@@ -19,7 +19,7 @@ const Welcome = ({ id, className = "", children }) => {
           Harshad & Priyanka
         </h1>
         <h2 className="mt-5 cursive theme-text-one heading-1">
-          Comming soon...!
+          Coming soon...!
         </h2>
         {/* <button
           className="theme-btn  primary-text bg-white"
