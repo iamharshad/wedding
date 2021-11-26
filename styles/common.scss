@@ -1,0 +1,51 @@
+::-moz-selection {
+  color: $white;
+  background: $primary;
+}
+
+::selection {
+  color: $white;
+  background: $primary;
+}
+body {
+  font-family: $global-font;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.theme-btn {
+  padding: 15px 20px;
+  border: none !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.overlay {
+  content: "";
+  background-color: $black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.section {
+  padding: 112px 0;
+}
+.section-description {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .section-description {
+    margin-bottom: 40px;
+  }
+  .section {
+    .heading-1 {
+      font-size: 40px;
+    }
+  }
+}
