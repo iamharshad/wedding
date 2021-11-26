@@ -11,10 +11,26 @@ $global-font: "Work Sans", sans-serif;
   font-family: "Pacifico", cursive;
 }
 
+.heading-xxl {
+  font-size: 86px;
+
+  @media (max-width: 767px) {
+    font-size: 60px;
+  }
+}
+
+.heading-xl {
+  font-size: 80px;
+}
+
 .heading-1 {
   font-size: 60px;
   font-weight: bold;
   line-height: 1.5;
+
+  @media (max-width: 767px) {
+    font-size: 40px;
+  }
 }
 
 .heading-2 {

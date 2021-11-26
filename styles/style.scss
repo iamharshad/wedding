@@ -128,9 +128,7 @@ $events-bg: "/media/images/events-bg.jpg";
   background-color: $light-pink;
   flex-flow: column;
   z-index: 9999;
-  h1 {
-    font-size: 100px;
-  }
+
   .welcome-content {
     z-index: 10;
   }

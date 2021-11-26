@@ -37,11 +37,11 @@ const IndexPage = () => {
         </div>
       </div>
       <Welcome />
-      <Banner />
+      {/* <Banner />
       <Invitation />
       <Events />
       <Story />
-      <GotoTopBtn />
+      <GotoTopBtn /> */}
     </>
   );
 };
