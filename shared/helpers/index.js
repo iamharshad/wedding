@@ -4,10 +4,10 @@ function msToDhms(t) {
     m = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)),
     s = Math.floor((t % (1000 * 60)) / 1000);
   return {
-    d: String(d).padStart(2, '0'),
-    h: String(h).padStart(2, '0'),
-    m: String(m).padStart(2, '0'),
-    s: String(s).padStart(2, '0'),
+    d: String(d).padStart(2, "0"),
+    h: String(h).padStart(2, "0"),
+    m: String(m).padStart(2, "0"),
+    s: String(s).padStart(2, "0"),
   };
 }
 
@@ -20,11 +20,11 @@ export function AudioPlayer() {}
 AudioPlayer.prototype = {
   init: function ({ url, loop = true, onload = () => {} }) {
     let _this = this;
-    _this.player = document.createElement('audio');
+    _this.player = document.createElement("audio");
     _this.player.src = url;
     _this.player.loop = loop;
     _this.player.controls = true;
-    _this.player.style.display = 'none';
+    _this.player.style.display = "none";
     _this.isPlaying = false;
     document.body.appendChild(_this.player);
     _this.onload = onload;
@@ -44,10 +44,10 @@ const makeNavLinksSmooth = (to) => {
 
   for (let n in navLinks) {
     if (navLinks.hasOwnProperty(n)) {
-      navLinks[n].addEventListener('click', (e) => {
+      navLinks[n].addEventListener("click", (e) => {
         e.preventDefault();
         document.querySelector(navLinks[n].hash).scrollIntoView({
-          behavior: 'smooth',
+          behavior: "smooth",
         });
       });
     }
@@ -67,16 +67,12 @@ const spyScrolling = (from, to, offset) => {
         sections[s].offsetTop <= scrollPos + offset
       ) {
         const id = sections[s].id;
-        [...document.querySelectorAll(`${from}.active`)].forEach(
-          (el) => {
-            el.classList.remove('active');
-          },
-        );
-        [...document.querySelectorAll(`a[href*=${id}]`)].forEach(
-          (el) => {
-            el.classList.add('active');
-          },
-        );
+        [...document.querySelectorAll(`${from}.active`)].forEach((el) => {
+          el.classList.remove("active");
+        });
+        [...document.querySelectorAll(`a[href*=${id}]`)].forEach((el) => {
+          el.classList.add("active");
+        });
       }
     }
   };

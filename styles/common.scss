@@ -11,6 +11,12 @@ body {
   font-family: $global-font;
 }
 
+.w-lg-50 {
+  @media (min-width: 992px) {
+    max-width: 50%;
+  }
+}
+
 .circle {
   border-radius: 100%;
 }
@@ -39,6 +45,40 @@ body {
   margin-bottom: 100px;
 }
 
+.rounded-image-container {
+  max-width: 120px;
+  min-width: 120px;
+  width: 100%;
+  height: 120px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 150px;
+    min-width: 150px;
+    width: 100%;
+    height: 150px;
+  }
+}
+
+.time-line-image-container {
+  border: 2px solid #33d2d2;
+  border-radius: 100%;
+  padding: 4px;
+  background: white;
+}
+
+.z-index-200 {
+  z-index: 200;
+}
+
+.skew-text {
+  transform: rotate(-10deg);
+  line-height: 1;
+}
 @media (max-width: 768px) {
   .section-description {
     margin-bottom: 40px;

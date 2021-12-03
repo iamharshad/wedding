@@ -50,25 +50,25 @@ export const storyTimeline = [
     date: "13-11-2020",
     title: "First Meet",
     description: "The day when we are saw each other",
-    image: "",
+    image: "/media/images/timeline/first-date.jpg",
   },
   {
     date: "25-11-2020",
     title: "Second Meet",
     description: "The day when we are saw each other",
-    image: "",
+    image: "/media/images/timeline/first-date.jpg",
   },
   {
     date: "13-12-2020",
     title: "Chai - Pani",
     description:
       "We celebration the day as Chai - Pani for we are making family get togather rasam",
-    image: "",
+    image: "/media/images/timeline/first-date.jpg",
   },
   {
-    date: "14-12-2020",
+    date: "19-12-2020",
     title: "First Date",
     description: "We was goes for out side as our first date start here",
-    image: "",
+    image: "/media/images/timeline/first-date.jpg",
   },
 ];

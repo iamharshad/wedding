@@ -146,8 +146,7 @@ header {
   }
 }
 .logo {
-  font-size: 40px;
-  @extend .cursive;
+  max-width: 70px;
 }
 .nav-link {
   padding: 0 10px;
@@ -167,11 +166,11 @@ header {
   position: relative;
   z-index: 3;
   .line {
-    width: 50px;
-    height: 5px;
+    width: 32px;
+    height: 2px;
     background-color: #ecf0f1;
     display: block;
-    margin: 8px auto;
+    margin: 4px auto;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -184,10 +183,10 @@ header {
   &.active {
     .line {
       &:nth-child(1) {
-        -webkit-transform: translateY(13px) rotate(45deg);
-        -ms-transform: translateY(13px) rotate(45deg);
-        -o-transform: translateY(13px) rotate(45deg);
-        transform: translateY(13px) rotate(45deg);
+        -webkit-transform: translateY(7px) rotate(45deg);
+        -ms-transform: translateY(7px) rotate(45deg);
+        -o-transform: translateY(7px) rotate(45deg);
+        transform: translateY(7px) rotate(45deg);
       }
 
       &:nth-child(2) {
@@ -195,10 +194,10 @@ header {
       }
 
       &:nth-child(3) {
-        -webkit-transform: translateY(-13px) rotate(-45deg);
-        -ms-transform: translateY(-13px) rotate(-45deg);
-        -o-transform: translateY(-13px) rotate(-45deg);
-        transform: translateY(-13px) rotate(-45deg);
+        -webkit-transform: translateY(-7px) rotate(-45deg);
+        -ms-transform: translateY(-7px) rotate(-45deg);
+        -o-transform: translateY(-7px) rotate(-45deg);
+        transform: translateY(-7px) rotate(-45deg);
       }
     }
   }
@@ -233,26 +232,32 @@ header {
 
 /*--- / Header style ends ---*/
 
-/*--- ``Banner style ends ---*/
+/*--- ``Banner style starts ---*/
 
 .banner {
   position: relative;
-  background: url($banner-image);
+  // background: url($banner-image);
   height: 900px;
   flex-flow: column;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   .overlay {
     opacity: 0.5;
   }
-  h1 {
-    font-size: 100px;
-    line-height: 1.5;
+  .banner-title {
+    font-size: 67px;
+  }
+  .banner-date {
+    font-size: 47px;
   }
   p {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
+    border-top: medium double #fff;
+    border-bottom: medium double #fff;
+    padding: 10px 50px;
   }
   button {
     line-height: 1.5;
@@ -490,15 +495,16 @@ header {
 
 // ``count down starts
 .count-down-container {
-  margin: 30px 0 32px 0;
+  color: white;
+  // height: 80vh;
 }
 
 .count-down-circle {
   background-color: rgba($primary, 0.8);
   display: inline-flex;
-  width: 100px;
-  height: 100px;
-  margin: 0 4px 8px 4px;
+  width: 140px;
+  height: 140px;
+  margin: 0 16px 8px 16px;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -528,7 +534,7 @@ header {
 }
 // / Count down ends
 
-/*--- / Banner style ends ---*/
+/*--- /``Banner style ends ---*/
 
 /* --- ``Invitation style starts */
 
@@ -603,17 +609,86 @@ header {
 /* --- ``Story timeline style start */
 
 .storytimeline {
+  &:before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    border: 2px solid rgba($theme-color-two, 0.8);
+    border-style: dashed;
+    width: 2px;
+    height: 100%;
+  }
   .storytimeline-list {
-    display: block;
-    clear: both;
-    &:nth-child(2n - 1) {
+    & + .storytimeline-list {
+      margin-top: 146px;
     }
-    &:nth-child(2n) {
+
+    @media (max-width: 991px) {
+      .time-line-image-container {
+        order: 1;
+      }
+
+      .storytimeline-list-content {
+        order: 2;
+        text-align: center;
+        background-color: $white;
+        z-index: 1;
+      }
+    }
+
+    @media (min-width: 992px) {
+      &:nth-child(2n - 1) {
+        text-align: right;
+
+        .storytimeline-list-box {
+          // padding-right: 32px;
+
+          .storytimeline-list-content {
+            order: 1;
+            text-align: right;
+          }
+
+          .storytimeline-list-img-wrapper {
+            right: -75px;
+            order: 2;
+          }
+        }
+      }
+      &:nth-child(2n) {
+        .storytimeline-list-box {
+          // padding-left: 32px;
+          margin-left: auto;
+
+          .storytimeline-list-content {
+            order: 2;
+            text-align: left;
+          }
+
+          .storytimeline-list-img-wrapper {
+            order: 1;
+            left: -75px;
+          }
+        }
+      }
     }
   }
 }
 
 /* --- ``Story timeline style ends */
+
+/* --- ``Thankyou  style start */
+.thank-you {
+  // height: 80vh;
+  // background: url("/media/images/banner-bg-2.jpg");
+  // background-size: cover;
+
+  .thank-you-message {
+    line-height: 0.7;
+  }
+}
+
+/* --- ``Thankyou  style end */
 
 ////////// responsive style //////////
 @media (max-width: 992px) {
@@ -639,9 +714,6 @@ header {
     p {
       font-size: 16px;
     }
-  }
-  .count-down-container {
-    max-width: 216px;
   }
 
   .couple:nth-child(1) {
