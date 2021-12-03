@@ -19,16 +19,18 @@ const Invitation = () => {
             We invited you to celebrate our wedding
           </p>
           <div className="row position-relative justify-content-center">
-            <div className="couple d-flex col-12 col-md-6 text-center text-sm-right mb-4">
+            <div className="couple d-flex col-12 col-md-6 text-center text-sm-right mb-4 justify-content-between">
               <div className="mr-3 text-start">
-                <h3 className="primary-text cursive">Harshad Kachariya</h3>
+                <h3 className="primary-text cursive mb-2 mb-md-4">
+                  Harshad Kachariya
+                </h3>
                 <p className="secondary-text text-start pe-3">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove
+                  When you realize you want to spend the rest of your life with
+                  somebody, you want the rest of your life to start as soon as
+                  possible.
                 </p>
               </div>
-              <div className="rounded-image-container ">
+              <div className="rounded-image-container mb-3 mb-md-0">
                 <img
                   src={`/media/images/groom.jpg`}
                   alt="groom"
@@ -36,8 +38,8 @@ const Invitation = () => {
                 />
               </div>
             </div>
-            <div className="couple d-flex col-12 col-md-6 text-center text-sm-left">
-              <div className="rounded-image-container ms-auto ms-md-0">
+            <div className="couple d-flex col-12 col-md-6 text-center text-sm-left justify-content-between">
+              <div className="rounded-image-container ms-auto ms-md-0 mb-3 mb-md-0">
                 <img
                   src={`/media/images/bride.jpg`}
                   alt="bride"
@@ -45,11 +47,12 @@ const Invitation = () => {
                 />
               </div>
               <div className="ml-0 ml-sm-3 text-end w-100">
-                <h3 className="primary-text cursive">Priyanka Zanzmera</h3>
+                <h3 className="primary-text cursive mb-2 mb-md-4">
+                  Priyanka Zanzmera
+                </h3>
                 <p className="secondary-text ps-3">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove
+                  You know when you have found your prince because you not only
+                  have a smile on your face, but in your heart as well.
                 </p>
               </div>
             </div>

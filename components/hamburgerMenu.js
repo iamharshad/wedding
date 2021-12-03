@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { navigationItems } from '../shared/dataset';
-const HamburgerMenu = ({ className = '' }) => {
+import * as React from "react";
+import { navigationItems } from "../shared/dataset";
+const HamburgerMenu = ({ className = "" }) => {
   const [isNavbarOpen, setNavbarOpen] = React.useState(false);
 
   const handleHamburgerClick = () => {
@@ -9,7 +9,7 @@ const HamburgerMenu = ({ className = '' }) => {
   return (
     <div className={`d-flex align-items-center d-md-none ${className}`}>
       <div
-        className={`hamburger ${isNavbarOpen ? 'active' : ''}`}
+        className={`hamburger ${isNavbarOpen ? "active" : ""}`}
         onClick={handleHamburgerClick}
       >
         <span className="line"></span>
@@ -18,7 +18,7 @@ const HamburgerMenu = ({ className = '' }) => {
       </div>
       <div
         className={`menu position-absolute text-uppercase ${
-          isNavbarOpen ? 'active' : ''
+          isNavbarOpen ? "active" : ""
         }`}
       >
         <a className="nav-link active" href="#banner">

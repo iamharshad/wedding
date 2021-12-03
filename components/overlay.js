@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Overlay = ({ opacity = 0.1 }) => {
+const Overlay = ({ opacity = 0.5 }) => {
   return <div className="overlay" style={{ opacity }}></div>;
 };
 

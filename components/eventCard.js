@@ -1,12 +1,7 @@
-import * as React from 'react';
+import * as React from "react";
 
 const EventCard = ({
-  details: {
-    heading = '',
-    description = '',
-    time = '',
-    date = '',
-  } = {},
+  details: { heading = "", description = "", time = "", date = "", link } = {},
 }) => {
   return (
     <div className="event-card text-center text-white">
@@ -24,7 +19,13 @@ const EventCard = ({
           </div>
         </div>
       </div>
-      <p>{description}</p>
+      <p>
+        <a href={link} className="text-white" target="_blank">
+          {description}
+          <br /> <i class="fas fa-map-marker-alt mt-3"></i> <br />
+          <small>Open in maps</small>
+        </a>
+      </p>
     </div>
   );
 };

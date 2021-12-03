@@ -15,7 +15,7 @@ const CountDown = () => {
   return (
     <Parallax
       bgImage="/media/images/banner-bg-2.jpg"
-      strength={200}
+      strength={100}
       renderLayer={(percentage) => {
         // console.log(percentage - 1);
         return <>{/* </div> */}</>;
@@ -24,7 +24,7 @@ const CountDown = () => {
       {" "}
       <>
         <div className="count-down-container section  d-flex align-items-center justify-content-center flex-column position-relative">
-          <Overlay />
+          <Overlay opacity={0.9} />
           <h2 className="skew-text heading-1 text-center cursive mb-5">
             Counting <br />
             Down

@@ -30,7 +30,7 @@ body {
 }
 .overlay {
   content: "";
-  background-color: $black;
+  background: radial-gradient(#4235abbf 60%, black 200%);
   position: absolute;
   top: 0;
   bottom: 0;

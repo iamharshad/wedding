@@ -5,8 +5,8 @@ export default function ThankYou(params) {
   return (
     <div className="thank-you  align-items-center justify-content-center flex-column">
       <Parallax
-        bgImage="/media/images/banner-bg-2.jpg"
-        strength={500}
+        bgImage="/media/images/thank-you.jpg"
+        strength={100}
         bgImageStyle={
           {
             // height: "100%",
@@ -22,20 +22,17 @@ export default function ThankYou(params) {
               <h2
                 style={{
                   position: "absolute",
-                  transform: `translate(-50%,-50%) rotate(${
-                    (-370 * percentage) / 0.75
-                  }deg) scale(${(-0.5 + percentage / 0.7) / 0.5})`,
-                  opacity: percentage / 0.8,
+                  transform: `translate(-50%,-50%) rotate(-10deg)`,
                   left: "50%",
                   top: "50%",
                 }}
-                className="thank-you-message text-white cursive heading-1 text-center z-index-200"
+                className="thank-you-message text-white cursive heading-1 text-center z-index-200 skew-text"
               >
                 Thank
                 <br />
                 you
               </h2>
-              <Overlay opacity={1 - percentage} />
+              <Overlay opacity={0.9} />
             </>
           );
         }}

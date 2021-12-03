@@ -245,6 +245,29 @@ header {
   .overlay {
     opacity: 0.5;
   }
+
+  .slick-slider {
+    height: 100vh;
+    z-index: -1;
+    img {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+    }
+  }
+
+  .banner-text-content-container {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .banner-text-content {
+    max-width: 500px;
+  }
+
   .banner-title {
     font-size: 67px;
   }
@@ -500,7 +523,7 @@ header {
 }
 
 .count-down-circle {
-  background-color: rgba($primary, 0.8);
+  background-color: $primary;
   display: inline-flex;
   width: 140px;
   height: 140px;
@@ -614,10 +637,12 @@ header {
     height: 100%;
     position: absolute;
     left: 50%;
-    border: 2px solid rgba($theme-color-two, 0.8);
+    border: 2px solid transparent;
+    border-left: 2px solid rgba($theme-color-two, 0.8);
     border-style: dashed;
-    width: 2px;
+    width: 0px;
     height: 100%;
+    transform: translateX(-2px);
   }
   .storytimeline-list {
     & + .storytimeline-list {

@@ -1,47 +1,113 @@
 import React from "react";
 export const eventDetails = [
   {
-    heading: "MAIN CEREMONY",
+    heading: "Pah",
     time: (
       <>
-        4:00 PM <br /> 6:00 PM
+        2:00 PM <br />
       </>
     ),
     date: (
       <>
-        Monday 28 <br /> November, 2016
+        Sunday <br />
+        26 December, 2021
       </>
     ),
-    description: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean`,
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
-    heading: "MAIN CEREMONY",
+    heading: "Git",
     time: (
       <>
-        4:00 PM <br /> 6:00 PM
+        8:00 PM <br />
       </>
     ),
     date: (
       <>
-        Monday 28 <br /> November, 2016
+        Sunday <br />
+        26 December, 2021
       </>
     ),
-    description: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean`,
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
-  ,
   {
-    heading: "MAIN CEREMONY",
+    heading: "Pithi/ Ras-Garaba",
     time: (
       <>
-        4:00 PM <br /> 6:00 PM
+        4:00 PM <br />
       </>
     ),
     date: (
       <>
-        Monday 28 <br /> November, 2016
+        Wednesday <br />
+        29 December, 2021
       </>
     ),
-    description: `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean`,
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
+  },
+  {
+    heading: "Mandap Muhrut",
+    time: (
+      <>
+        7:00 AM <br />
+      </>
+    ),
+    date: (
+      <>
+        Thursday <br />
+        30 December, 2021
+      </>
+    ),
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
+  },
+  {
+    heading: "Mamera",
+    time: (
+      <>
+        10:00 AM <br />
+      </>
+    ),
+    date: (
+      <>
+        Thursday <br />
+        30 December, 2021
+      </>
+    ),
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
+  },
+
+  {
+    heading: "Jaan Departure",
+    time: (
+      <>
+        3:00 PM <br />
+      </>
+    ),
+    date: (
+      <>
+        Thursday <br />
+        30 December, 2021
+      </>
+    ),
+    link: "https://g.page/jkkachariya?share",
+    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
+  },
+  {
+    heading: "Hasta Melap",
+    time: <>8.45 PM</>,
+    date: (
+      <>
+        Thursday <br />
+        30 December, 2021
+      </>
+    ),
+    link: "https://goo.gl/maps/schRnAGCXkg1P8mW7",
+    description: `Kiran Cross Rd, Nani Ved, Pramukh Darshan Society, Dabholi, Surat, Gujarat 395004`,
   },
 ];
 
@@ -50,20 +116,20 @@ export const storyTimeline = [
     date: "13-11-2020",
     title: "First Meet",
     description: "The day when we are saw each other",
-    image: "/media/images/timeline/first-date.jpg",
+    image: "/media/images/timeline/1-meet.jpg",
   },
   {
     date: "25-11-2020",
     title: "Second Meet",
     description: "The day when we are saw each other",
-    image: "/media/images/timeline/first-date.jpg",
+    image: "/media/images/timeline/2-meet.jpeg",
   },
   {
     date: "13-12-2020",
     title: "Chai - Pani",
     description:
       "We celebration the day as Chai - Pani for we are making family get togather rasam",
-    image: "/media/images/timeline/first-date.jpg",
+    image: "/media/images/timeline/chai-pani.jpg",
   },
   {
     date: "19-12-2020",
