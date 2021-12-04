@@ -1,9 +1,9 @@
 import * as React from "react";
-import Header from "../../components/header";
 import HeartEffect from "../../components/heartEffect";
 import Overlay from "../../components/overlay";
 import { Parallax, Background } from "react-parallax";
 import Slider from "react-slick";
+import ScrollDown from "../../components/scrollDown";
 
 const Banner = () => {
   function throttle(fn, wait) {
@@ -56,6 +56,7 @@ const Banner = () => {
         className="banner spyble-section text-center text-white overflow-hidden  justify-content-center align-items-center"
         id="banner"
       >
+        <ScrollDown />
         <Overlay opacity={0.9} />
         <Slider {...settings}>
           <div>

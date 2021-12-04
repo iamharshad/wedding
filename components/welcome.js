@@ -22,7 +22,7 @@ const Welcome = ({ id, className = "", children }) => {
           Coming soon...!
         </h2> */}
         <button
-          className="theme-btn  primary-text bg-white"
+          className="theme-btn  primary-text bg-white mt-5"
           onClick={() => {
             backgroundMusic.play();
             setIsWelcomeActive(false);

@@ -31,7 +31,7 @@ class MyDocument extends Document {
           <meta property="og:type" content="article" />
           <meta
             property="og:image"
-            content={`https://wedding-aczpaausn-iamharshad.vercel.app/media/images/og-thumb.jpg`}
+            content={`https://wedding-c9n6ptxdp-iamharshad.vercel.app/media/images/og-thumb.jpg`}
           />
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="200" />
