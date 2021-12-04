@@ -14,7 +14,12 @@ const CountDown = () => {
 
   return (
     <Parallax
-      bgImage="/media/images/count-down.jpg"
+      bgImage={
+        process.browser &&
+        (window?.innerWidth > 767
+          ? "/media/images/count-down.jpg"
+          : "/media/images/count-down-small.jpg")
+      }
       strength={100}
       renderLayer={(percentage) => {
         // console.log(percentage - 1);

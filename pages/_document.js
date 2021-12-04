@@ -35,6 +35,8 @@ class MyDocument extends Document {
           />
           <meta property="og:image:width" content="300" />
           <meta property="og:image:height" content="200" />
+          <meta name="theme-color" content="#4235ab" />
+
           <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -130,7 +132,6 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-          <meta name="theme-color" content="#ffffff" />
         </Head>
         <body>
           <Main />
