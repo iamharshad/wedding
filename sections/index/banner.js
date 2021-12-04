@@ -59,13 +59,31 @@ const Banner = () => {
         <Overlay opacity={0.9} />
         <Slider {...settings}>
           <div>
-            <img src="/media/images/banner-bg-1.jpg" className="img-fluid" />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/media/images/banner-bg-1-small.jpg"
+              />
+              <img src="/media/images/banner-bg-1.jpg" className="img-fluid" />
+            </picture>
           </div>
           <div>
-            <img src="/media/images/banner-bg-2.jpg" className="img-fluid" />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/media/images/banner-bg-2-small.jpg"
+              />
+              <img src="/media/images/banner-bg-2.jpg" className="img-fluid" />
+            </picture>{" "}
           </div>
           <div>
-            <img src="/media/images/banner-bg-3.jpg" className="img-fluid" />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/media/images/banner-bg-3-small.jpg"
+              />
+              <img src="/media/images/banner-bg-3.jpg" className="img-fluid" />
+            </picture>{" "}
           </div>
           <div>
             <img src="/media/images/banner-bg-4.jpg" className="img-fluid" />
