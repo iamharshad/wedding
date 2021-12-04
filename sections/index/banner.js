@@ -1,7 +1,7 @@
 import * as React from "react";
-import HeartEffect from "../../components/heartEffect";
+// import HeartEffect from "../../components/heartEffect";
 import Overlay from "../../components/overlay";
-import { Parallax, Background } from "react-parallax";
+// import { Parallax, Background } from "react-parallax";
 import Slider from "react-slick";
 import ScrollDown from "../../components/scrollDown";
 
@@ -62,7 +62,7 @@ const Banner = () => {
           <div>
             <picture>
               <source
-                media="(max-width: 768px)"
+                media="(max-width: 767px)"
                 srcset="/media/images/banner-bg-1-small.jpg"
               />
               <img src="/media/images/banner-bg-1.jpg" className="img-fluid" />
@@ -71,7 +71,7 @@ const Banner = () => {
           <div>
             <picture>
               <source
-                media="(max-width: 768px)"
+                media="(max-width: 767px)"
                 srcset="/media/images/banner-bg-2-small.jpg"
               />
               <img src="/media/images/banner-bg-2.jpg" className="img-fluid" />
@@ -80,7 +80,7 @@ const Banner = () => {
           <div>
             <picture>
               <source
-                media="(max-width: 768px)"
+                media="(max-width: 767px)"
                 srcset="/media/images/banner-bg-3-small.jpg"
               />
               <img src="/media/images/banner-bg-3.jpg" className="img-fluid" />
@@ -89,7 +89,7 @@ const Banner = () => {
           <div>
             <picture>
               <source
-                media="(max-width: 768px)"
+                media="(max-width: 767px)"
                 srcset="/media/images/banner-bg-4-small.jpg"
               />
               <img src="/media/images/banner-bg-4.jpg" className="img-fluid" />
@@ -97,7 +97,7 @@ const Banner = () => {
           </div>
         </Slider>
 
-        <HeartEffect />
+        {/* <HeartEffect /> */}
         <div className="banner-text-content-container position-absolute d-flex align-items-center justify-content-center">
           <div className=" banner-text-content">
             <h1 className="banner-title cursive  skew-text mb-0">
