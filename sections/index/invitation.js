@@ -1,8 +1,6 @@
 import * as React from "react";
 
 import Section from "../../components/section";
-// import Groom from '../../assets/images/groom.jpg';
-// import Bride from '../../assets/images/bride.jpg';
 import CircleIcon from "../../components/circleIcon";
 const Invitation = () => {
   return (

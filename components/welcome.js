@@ -2,7 +2,6 @@ import * as React from "react";
 import { AudioPlayer } from "../shared/helpers";
 import HeartEffect from "./heartEffect";
 // import bgMusic from '../assets/audio/sample.mp3';
-import Overlay from "./overlay";
 
 const Welcome = ({ id, className = "", children }) => {
   const [isWelcomeActive, setIsWelcomeActive] = React.useState(true);
