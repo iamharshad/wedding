@@ -86,7 +86,13 @@ const Banner = () => {
             </picture>{" "}
           </div>
           <div>
-            <img src="/media/images/banner-bg-4.jpg" className="img-fluid" />
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="/media/images/banner-bg-4-small.jpg"
+              />
+              <img src="/media/images/banner-bg-4.jpg" className="img-fluid" />
+            </picture>{" "}
           </div>
         </Slider>
 

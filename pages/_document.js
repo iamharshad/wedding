@@ -33,8 +33,8 @@ class MyDocument extends Document {
             property="og:image"
             content={`${window.location.origin}/media/images/og-thumb.jpg`}
           />
-          <meta property="og:image:width" content="1280" />
-          <meta property="og:image:height" content="640" />
+          <meta property="og:image:width" content="300" />
+          <meta property="og:image:height" content="200" />
           <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
