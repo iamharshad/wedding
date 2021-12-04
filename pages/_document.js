@@ -31,10 +31,22 @@ class MyDocument extends Document {
           <meta property="og:type" content="article" />
           <meta
             property="og:image"
-            content="https://wedding-pz8dfmkc3-iamharshad.vercel.app/media/images/og-thumb.jpg"
+            content="https://wedding-aczpaausn-iamharshad.vercel.app/media/images/og-thumb.jpg"
           />
           <meta property="og:image:width" content="1280" />
           <meta property="og:image:height" content="640" />
+          <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+          />
         </Head>
         <body>
           <Main />
