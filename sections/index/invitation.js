@@ -16,7 +16,7 @@ const Invitation = () => {
             December 30th 2021, Surat, Gujarat, India
           </h2>
           <p className="section-description secondary-text text-center">
-            We invited you to celebrate our wedding
+            We are inviting you to celebrate our wedding
           </p>
           <div className="row position-relative justify-content-center">
             <div className="couple d-flex col-12 col-md-6 text-center text-sm-right mb-4 justify-content-between">

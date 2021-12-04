@@ -13,8 +13,7 @@ const Story = () => {
           Our Story
         </h1>
         <p className="section-description secondary-text text-center">
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts.{" "}
+          Here we have mentioned some special moments of our story
         </p>
         <StorybookTimeline />
       </div>
