@@ -13,7 +13,7 @@ export const eventDetails = [
         26 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
+    link: "https://goo.gl/maps/jkBSx2BaRnJrhKJB6",
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
@@ -29,7 +29,7 @@ export const eventDetails = [
         26 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
+    link: "https://goo.gl/maps/jkBSx2BaRnJrhKJB6",
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
@@ -45,8 +45,8 @@ export const eventDetails = [
         29 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
-    description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
+    link: "https://goo.gl/maps/schRnAGCXkg1P8mW7",
+    description: `Viha Farm, Kiran Cross Rd, Nani Ved, Pramukh Darshan Society, Dabholi, Surat, Gujarat 395004`,
   },
   {
     heading: "Mandap Muhrut",
@@ -61,7 +61,7 @@ export const eventDetails = [
         30 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
+    link: "https://goo.gl/maps/jkBSx2BaRnJrhKJB6",
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
@@ -77,7 +77,7 @@ export const eventDetails = [
         30 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
+    link: "https://goo.gl/maps/jkBSx2BaRnJrhKJB6",
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
 
@@ -94,7 +94,7 @@ export const eventDetails = [
         30 December, 2021
       </>
     ),
-    link: "https://g.page/jkkachariya?share",
+    link: "https://goo.gl/maps/jkBSx2BaRnJrhKJB6",
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
@@ -107,7 +107,7 @@ export const eventDetails = [
       </>
     ),
     link: "https://goo.gl/maps/schRnAGCXkg1P8mW7",
-    description: `Kiran Cross Rd, Nani Ved, Pramukh Darshan Society, Dabholi, Surat, Gujarat 395004`,
+    description: `Viha Farm, Kiran Cross Rd, Nani Ved, Pramukh Darshan Society, Dabholi, Surat, Gujarat 395004`,
   },
 ];
 
