@@ -17,7 +17,7 @@ export const eventDetails = [
     description: `126, Purushottam Nagar, Bapa Sitram Chowk, Katargam, Surat - 4`,
   },
   {
-    heading: "Git",
+    heading: "Geet gunjan",
     time: (
       <>
         8:00 PM <br />
@@ -82,7 +82,7 @@ export const eventDetails = [
   },
 
   {
-    heading: "Jaan Departure",
+    heading: "Jan prasthan",
     time: (
       <>
         3:00 PM <br />
@@ -113,7 +113,7 @@ export const eventDetails = [
 
 export const storyTimeline = [
   {
-    date: "13-11-2020",
+    date: "7-11-2020",
     title: "First Meet",
     description:
       "The day when we saw each other, This was the very beginning of the story",
