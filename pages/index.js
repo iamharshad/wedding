@@ -8,10 +8,12 @@ import Welcome from "../components/welcome";
 import Head from "next/head";
 import { Story, ThankYou } from "../sections";
 import CountDown from "../sections/index/countDown";
+import Seo from "../components/SEO/seo";
 
 const IndexPage = () => {
   return (
     <>
+      <Seo />
       <Head>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
