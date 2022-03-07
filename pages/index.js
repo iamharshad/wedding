@@ -8,7 +8,7 @@ import Welcome from "../components/welcome";
 import Head from "next/head";
 import { Story, ThankYou } from "../sections";
 import CountDown from "../sections/index/countDown";
-import Seo from "../components/SEO/seo";
+import Seo from "../components/SEO/Seo";
 
 const IndexPage = () => {
   return (
